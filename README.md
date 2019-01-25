@@ -3,35 +3,31 @@
 Start with a main function and make each problem a function. Call those functions from your main function.
 
 ### Problem 1:
-Create a class Dog. Make sure it has the attributes name, breed, color, gender. There are no methods in this class. The main function below should work with the class you create.
+Create a class Dog. Make sure it has the attributes name, breed, color, gender. Create a function that will print all attributes of the class. Create an object of Dog in your problem1 function and print all of it's attributes.
 
 ### Problem 2:
 ##### We will keep having this problem until EVERYONE gets it right without help
-Create a function that has a loop that quits with ‘q’. If the user doesn't enter 'q', ask them to input another string.
+Create a function that has a loop that quits with the equal sign. If the user doesn't enter the equal sign, ask them to input another string.
 
 ### Problem 3:
+In your main file create three Person objects. Change the weight and height of each one. Afterwards, print the BMI (body mass index) of each Person. If you don’t know how to calculate BMI, look at the code I provided for you.
 
-Create a class Product that represents a product sold online. A product has a price, quantity and name.
+<strong>Hint</strong>: BMI is (weight / (height * height)) x 703. Weight is in pounds and height is in inches.
 
-The class should have:
-
-A constructor public Product(String nameAtStart, double priceAtStart, int amountAtStart)
-A method public void printProduct() that prints a product in the following form: Banana, price 1.1, amount 13
-
+<strong>Extra</strong>:Put the three person objects in an array and use a loop to print out their BMIs.
 
 ### Problem 4:
-In your main file create three Person objects. Change the weight and height of each one. Afterwards print the BMI (body mass index) of each Person. If you don’t know how to calculate BMI, look at the code I provided for you.
+Create a class Product that represents a product sold online. A product has a name, price, and quantity.
 
-Exercise 30b
-Use your existing file from above. Put the three Person objects in an array.
+The class should have changeProduct:
 
-Exercise 30c
-Use your existing file from above. PrintPerson the second Person object
+a) If changeProduct has one parameter, it can change the name of the product.
 
-### Problem 5:
-In the main function create two integer variables. Once created, send the two variables to a new function called product to multiply the numbers and return the result. Also in the main area send the two variables to a new function called quotient to divide the two numbers and return the result.
+b) If changeProduct has two parameters it can change the name and price of the product.
 
-Both returns should be an alert that says product ANSWER or quotient ANSWER.
+c) If changeProduct has three parameters it can change the name, price, and quantity of the product. 
+
+Create an object of Product in your problem4 function and print all of it's attributes.
 
 ### Challenge
 Use a standard JavaScript template. In your main function create the array below:
